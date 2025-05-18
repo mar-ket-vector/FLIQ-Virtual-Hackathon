@@ -1,0 +1,3 @@
+In the create_vqa_circuit function, I first assigned the inputs via a feature map. The ZZFeatureMap was the best way to embed input parameters since it uses entanglement after rotating on the Z-axis to embed parameters. 
+
+I then added rz gates to rotate each qubit by a weight and I entangled both qubits after each rotation.
